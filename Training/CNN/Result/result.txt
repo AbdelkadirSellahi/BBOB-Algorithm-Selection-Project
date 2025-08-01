@@ -1,0 +1,22 @@
+Final Training Accuracy: 0.9547
+Final Training Loss: 0.1866
+Test Accuracy: 0.886
+Test Loss: 0.771
+
+Classification Report:
+                          precision    recall  f1-score   support
+
+            BIPOP-CMA-ES       0.93      1.00      0.97        43
+          CMA-CSA_Atamna       0.94      0.81      0.87        37
+   CMAES-APOP-KMA_Nguyen       0.84      0.82      0.83        33
+DE-BFGS_voglis_noiseless       0.95      0.54      0.69        39
+                a-CMA-ES       0.87      0.79      0.83        33
+       ad-CMA-ES_Gissler       0.76      0.94      0.84        36
+      adm-CMA-ES_Gissler       0.87      0.98      0.92        41
+       dm-CMA-ES_Gissler       0.80      1.00      0.89        37
+        s-CMA-ES_Gissler       0.97      0.97      0.97        39
+       sd-CMA-ES_Gissler       0.96      0.96      0.96        48
+
+                accuracy                           0.89       386
+               macro avg       0.89      0.88      0.88       386
+            weighted avg       0.89      0.89      0.88       386

@@ -1,0 +1,77 @@
+
+Class Distribution before SMOTE:
+Best Algorithm
+0     27
+1     41
+2     26
+3    193
+4     48
+5     36
+6     31
+7     31
+8     17
+9     30
+Name: count, dtype: int64
+
+Class distribution in y_train: Best Algorithm
+1    124
+4    124
+8    120
+5    119
+3    116
+2    116
+6    114
+7    112
+0    108
+9    105
+Name: count, dtype: int64
+Class distribution in y_val: Best Algorithm
+9    50
+0    45
+2    45
+6    41
+7    39
+5    38
+4    36
+3    34
+8    31
+1    27
+Name: count, dtype: int64
+Class distribution in y_test: Best Algorithm
+3    43
+1    42
+8    42
+7    42
+0    40
+9    38
+6    38
+5    36
+4    33
+2    32
+Name: count, dtype: int64
+
+Final Training Accuracy: 0.9836
+Final Training Loss: 0.0530
+Accuracy and Loss plot saved to: /content/drive/MyDrive/Wail-Projet-F/MLP/Result/model_architecture.png
+Test Accuracy: 0.847
+Confusion Matrix plot saved to: /content/drive/MyDrive/Wail-Projet-F/MLP/Result/confusion_matrix.png
+
+Classification Report:
+                          precision    recall  f1-score   support
+
+            BIPOP-CMA-ES       0.84      0.95      0.89        40
+          CMA-CSA_Atamna       0.86      0.86      0.86        42
+   CMAES-APOP-KMA_Nguyen       0.81      0.94      0.87        32
+DE-BFGS_voglis_noiseless       0.69      0.56      0.62        43
+                a-CMA-ES       0.74      0.70      0.72        33
+       ad-CMA-ES_Gissler       0.86      0.89      0.88        36
+      adm-CMA-ES_Gissler       0.83      1.00      0.90        38
+       dm-CMA-ES_Gissler       0.85      0.69      0.76        42
+        s-CMA-ES_Gissler       1.00      0.98      0.99        42
+       sd-CMA-ES_Gissler       0.95      0.95      0.95        38
+
+                accuracy                           0.85       386
+               macro avg       0.84      0.85      0.84       386
+            weighted avg       0.84      0.85      0.84       386
+
+Model saved to: /content/drive/MyDrive/Wail-Projet-F/MLP/Result/mlp_model.pkl
