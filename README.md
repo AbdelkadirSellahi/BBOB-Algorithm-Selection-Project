@@ -81,11 +81,11 @@ pip install pandas numpy scikit-learn tensorflow imblearn joblib
 ### Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/bbob-algorithm-selection.git
-   cd bbob-algorithm-selection
+   git clone https://github.com/AbdelkadirSellahi/BBOB-Algorithm-Selection-Project.git
+   cd BBOB-Algorithm-Selection-Project
    ```
 2. **Upload Data**:
-   - Place `optimization_data_relert.csv`, `normalized_dataset.csv`, `test_dataset.csv`, and `dataset.csv` in the appropriate directories (e.g., `Wail-Projet-F/MLP/Data` or `Wail-Projet-F/CNN/Data`).
+   - Place `optimization_data_relert.csv`, `normalized_dataset.csv`, `test_dataset.csv`, and `dataset.csv` in the appropriate directories (e.g., `F/MLP/Data` or `F/CNN/Data`).
    - Alternatively, update file paths in the notebooks to match your setup.
 
 3. **Run the Notebooks**:
@@ -132,7 +132,7 @@ Compare the summary with `RELERt_table_with_ALL.xlsx` from `T-01.ipynb` to see h
 - The dataset is small (480 samples), which may limit model performance.
 - Both models struggle with `DE-BFGS_voglis_noiseless`, possibly due to imbalanced data.
 - The MLP model uses PCA, which may lose some information, while the CNN model’s padding may add noise.
-- File paths are specific to Google Drive; you may need to adjust them.
+- File paths are specific to Google Drive, you may need to adjust them.
 
 ---
 
@@ -156,10 +156,12 @@ Please follow the code style in the notebooks and test all changes before submit
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## **Contact**
 
----
+Feel free to open an issue or reach out for collaboration!  
 
-## Contact
-For questions or feedback, please open an issue on GitHub or contact [your-email@example.com].
+**Author**: *Abdelkadir Sellahi*
+
+**Email**: *abdelkadirsellahi@gmail.com* 
+
+**GitHub**: [Abdelkadir Sellahi](https://github.com/AbdelkadirSellahi)
